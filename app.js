@@ -165,11 +165,13 @@ let question5 = new Question("Au judo quel est le grade le plus élevé parmi ce
 quiz.addQuestion(question5);
 
 let question6 = new Question("Quel pays ne participe pas au tounoi des Six-Nations ?", ['Italie','France','Espagne'],3);
+quiz.addQuestion(question6);
 
 let question7 = new Question("Quel pays d'Amérique latine accueil un grands Prix de formule 1?", ['Argentine','Mexique','Chili'],3);
+quiz.addQuestion(question7);
 
 let question8 = new Question("Contre qui a combattu Mohamed Ali dans un combat mémorable se déroulant à Kinshasa ?"['George Foreman','Sonny Liston','Michael Moorer'],1);
-
+quiz.addQuestion(question8);
 
 
 
