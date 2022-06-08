@@ -161,6 +161,15 @@ let question4 = new Question("Quelles sont les épreuves en force athlétique?",
 
 quiz.addQuestion(question4);
 
+let question5 = new Question("Au judo quel est le grade le plus élevé parmi ces ceintures ?",['Orange', 'Bleue', 'Vert'],2);
+quiz.addQuestion(question5);
+
+let question6 = new Question("Quel pays ne participe pas au tounoi des Six-Nations ?", ['Italie','France','Espagne'],3);
+
+let question7 = new Question("Quel pays d'Amérique latine accueil un grands Prix de formule 1?", ['Argentine','Mexique','Chili'],3);
+
+let question8 = new Question("Contre qui a combattu Mohamed Ali dans un combat mémorable se déroulant à Kinshasa ?"['George Foreman','Sonny Liston','Michael Moorer'],1);
+
 
 
 
