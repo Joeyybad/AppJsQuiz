@@ -168,16 +168,16 @@ quiz.addQuestion(question5);
 let question6 = new Question("Quel pays ne participe pas au tounoi des Six-Nations ?", ['Italie','France','Espagne'],3);
 quiz.addQuestion(question6);
 
-let question7 = new Question("Quel pays d'Amérique latine accueil un grands Prix de formule 1?", ['Argentine','Mexique','Chili'],3);
+let question7 = new Question("Quel pays d'Amérique latine accueil un grands Prix de formule 1?", ['Argentine','Mexique','Chili'],2);
 quiz.addQuestion(question7);
 
-let question8 = new Question("Contre qui a combattu Mohamed Ali dans un combat mémorable se déroulant à Kinshasa ?"['George Foreman','Sonny Liston','Michael Moorer'],1);
+let question8 = new Question("Contre qui a combattu Mohamed Ali dans un combat mémorable se déroulant à Kinshasa ?",['George Foreman','Sonny Liston','Michael Moorer'],1);
 quiz.addQuestion(question8);
 
-let question9 = new Question(" qui est champion du monde de F1 en 2023?"['Charles Leclerc','Max Verstappen','Sergio perez'],2)
+let question9 = new Question(" qui est champion du monde de F1 en 2023?",['Charles Leclerc','Max Verstappen','Sergio perez'],2)
 quiz.addQuestion(question9)
 
-let question10 = new Question("quel est la franchise de nba qui a gagné les playoff l'année 2022/2023?"['Milwaukee Bucks','LosAngeles Lakers','Denver Nuggets'],3)
+let question10 = new Question("quel est la franchise de nba qui a gagné les playoff l'année 2022/2023?",['Milwaukee Bucks','LosAngeles Lakers','Denver Nuggets'],3)
 quiz.addQuestion(question10)
 
 
