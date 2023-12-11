@@ -1,4 +1,5 @@
-let screenWelcome = document.getElementById('welcomescreen')//variable utilisées dans le programme
+//variable utilisées dans le programme
+let screenWelcome = document.getElementById('welcomescreen')
 let screenQuestion = document.getElementById('questionscreen')
 let screenResult = document.getElementById('resultscreen')
 class Quiz {
@@ -146,7 +147,7 @@ let quiz = new Quiz();
 //utilise la propriété addQuestion de la class quiz pour ajouter la question 1
 quiz.addQuestion(question1)
 
-let question2 = new Question("Contre qui l'allemagne à gagné en finale de la coupe du monde",
+let question2 = new Question("Contre qui l'allemagne à gagné en finale de la coupe du monde 2014",
 ['Brésil','Argentine','Italie'],2);
 
 quiz.addQuestion(question2);
@@ -173,6 +174,11 @@ quiz.addQuestion(question7);
 let question8 = new Question("Contre qui a combattu Mohamed Ali dans un combat mémorable se déroulant à Kinshasa ?"['George Foreman','Sonny Liston','Michael Moorer'],1);
 quiz.addQuestion(question8);
 
+let question9 = new Question(" qui est champion du monde de F1 en 2023?"['Charles Leclerc','Max Verstappen','Sergio perez'],2)
+quiz.addQuestion(question9)
+
+let question10 = new Question("quel est la franchise de nba qui a gagné les playoff l'année 2022/2023?"['Milwaukee Bucks','LosAngeles Lakers','Denver Nuggets'],3)
+quiz.addQuestion(question10)
 
 
 //quiz.launch();
